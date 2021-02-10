@@ -1,6 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
 
+.jumbotron {
+  color: white;
+  background-image: url("https://www.imindq.com/Portals/0/EasyDNNnews/273/img-book-mind-mapping.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+#footer {
+  padding: 20px;
+  background-color: #b3b3b3;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
