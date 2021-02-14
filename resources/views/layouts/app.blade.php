@@ -41,7 +41,7 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="/user/books/create">Add book</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Contacts</a>
