@@ -8,42 +8,61 @@
         </div>
     </div>
     <div class="container">
-        <div class="card-columns text-center">
-            <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
+        <div class="row">
+            <div class="col card text-center m-1">
+                <div class="card-body">
+                    <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
             </div>
-            <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
+            <div class="col card text-center m-1">
+                <div class="card-body">
+                    <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
             </div>
-            <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
+            <div class="col card text-center m-1">
+                <div class="card-body">
+                    <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
             </div>
-            <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
+            <div class="col card text-center m-1">
+                <div class="card-body">
+                    <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
             </div>
-            <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
-            </div>
-            <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg" alt="Card image">
-            <div class="card-body">
-                <h4 class="card-title">John Doe</h4>
-                <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
+            <div class="col card text-center m-1">
+                <div class="card-body">
+                    <img class="card-img-top" src="https://images.indianexpress.com/2020/04/books_1200.jpg"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

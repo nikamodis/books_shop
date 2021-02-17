@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,6 +38,8 @@ Route::group(['middleware' => 'auth'], function () {
     })->name('dashboard');
 
     Route::group(['prefix' => 'user', 'as' => 'user.'], function () {
-        Route::resource('books', \App\Http\Controllers\User\BookController::class);        
+        Route::resource('books', 'User\BookController');        
     });
 });
+
+Route::post('/user/books/create/submit', 'User\BookController@submit');

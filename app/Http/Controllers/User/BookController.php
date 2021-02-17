@@ -5,6 +5,7 @@ namespace App\Http\Controllers\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Genre;
+use App\Models\Book;
 
 class BookController extends Controller
 {
@@ -85,4 +86,17 @@ class BookController extends Controller
     {
         //
     }
+
+    public function submit(Request $request){
+        
+        $created_book = new Book;
+        $created_book->title = $request->input('title');
+        $created_book->author = $request->input('author');
+        $created_book->description = $request->input('description');
+        $created_book->price = $request->input('price');
+       
+        $created_book->save();
+
+        return redirect('/')->with('success', 'Book created');
+    }    
 }
