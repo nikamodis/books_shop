@@ -3,7 +3,7 @@
 @section('content')
     <div class="container card my-5">
         <div class="card-body">
-            {!! Form::open(['url' => '/user/books/create/submit']) !!}
+            {!! Form::open(['url' => 'user/books/index']) !!}
             <div class="form-group">
                 {{ Form::label('title', 'Title') }}
                 {{ Form::text('title', '', ['class' => 'form-control', 'required' => 'required']) }}

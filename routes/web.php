@@ -20,18 +20,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/dashboard', function () {
         return view('dashboard');
@@ -41,5 +29,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::resource('books', 'User\BookController');        
     });
 });
-
-Route::post('/user/books/create/submit', 'User\BookController@submit');
+Route::get('/user/books/index', function () {
+    return view('user.books');
+});
+Route::post('/user/books/index', 'User\BookController@submit');
