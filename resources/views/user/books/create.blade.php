@@ -2,6 +2,15 @@
 
 @section('content')
     <div class="container card my-5">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <div class="card-body">
             {!! Form::open(['url' => 'user/books/index']) !!}
             <div class="form-group">
